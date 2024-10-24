@@ -1,3 +1,4 @@
+# rails g model Warehouse name:string code:string city:string area:integer
 class CreateWarehouses < ActiveRecord::Migration[7.2]
   def change
     create_table :warehouses do |t|
